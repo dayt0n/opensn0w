@@ -35,9 +35,9 @@ concepts, code, and/or inspiration.
 
 ## 3. HOW TO INSTALL
 
-- Run `./autogen.sh`
-- Run `./configure --prefix=/your/install/dir/here`
-- Run `make; make install`
+- Run <pre>`./autogen.sh`</pre>
+- Run <pre>`./configure --prefix=/your/install/dir/here`</pre>
+- Run <pre>`make; make install`</pre>
 - Done.
 
 ## 4. CONTACT US!
