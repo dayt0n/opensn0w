@@ -27,6 +27,7 @@ platform-independence.
 We'd like to acknowledge the following projects for design 
 concepts, code, and/or inspiration.
 
++ [Dayt0n](http://twitter.com/daytonhasty)
 + [Atheme](http://atheme.net)
 + [Shrike](http://shrike.malkier.net)
 + [libirc](https://github.com/elly/libirc)
