@@ -1,183 +1,176 @@
-/* include/config.h.  Generated from config.h.in by configure.  */
 /* include/config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Define if building universal (internal helper macro) */
-/* #undef AC_APPLE_UNIVERSAL_BUILD */
+#undef AC_APPLE_UNIVERSAL_BUILD
 
 /* This is a Darwin system */
-#define DARWIN 1
+#undef DARWIN
 
 /* "Enable stack tracing through libunwind." */
-/* #undef ENABLE_STACK */
+#undef ENABLE_STACK
 
 /* Define to 1 if you have the `arc4random' function. */
-#define HAVE_ARC4RANDOM 1
-
-/* Define to 1 if you have the <dlfcn.h> header file. */
-#define HAVE_DLFCN_H 1
+#undef HAVE_ARC4RANDOM
 
 /* Define to 1 if you have the `execve' function. */
-#define HAVE_EXECVE 1
+#undef HAVE_EXECVE
 
 /* Define to 1 if you have the `fork' function. */
-#define HAVE_FORK 1
+#undef HAVE_FORK
 
 /* Define to 1 if you have the `getpid' function. */
-#define HAVE_GETPID 1
+#undef HAVE_GETPID
 
 /* Define to 1 if you have the `getrlimit' function. */
-#define HAVE_GETRLIMIT 1
+#undef HAVE_GETRLIMIT
 
 /* Define to 1 if you have the `gettimeofday' function. */
-#define HAVE_GETTIMEOFDAY 1
+#undef HAVE_GETTIMEOFDAY
 
 /* Define to 1 if you have the `inet_ntop' function. */
-#define HAVE_INET_NTOP 1
+#undef HAVE_INET_NTOP
 
 /* Define to 1 if you have the `inet_pton' function. */
-#define HAVE_INET_PTON 1
+#undef HAVE_INET_PTON
 
 /* Define to 1 if you have the <inttypes.h> header file. */
-#define HAVE_INTTYPES_H 1
+#undef HAVE_INTTYPES_H
 
 /* Define to 1 if you have the `crypto' library (-lcrypto). */
-#define HAVE_LIBCRYPTO 1
+#undef HAVE_LIBCRYPTO
 
 /* Define to 1 if you have the `curl' library (-lcurl). */
-#define HAVE_LIBCURL 1
+#undef HAVE_LIBCURL
 
 /* Define to 1 if you have the `curldll' library (-lcurldll). */
-/* #undef HAVE_LIBCURLDLL */
-
-/* Define to 1 if you have the `dl' library (-ldl). */
-#define HAVE_LIBDL 1
-
-/* Define to 1 if you have the `elf' library (-lelf). */
-/* #undef HAVE_LIBELF */
+#undef HAVE_LIBCURLDLL
 
 /* Define to 1 if you have the `nsl' library (-lnsl). */
-/* #undef HAVE_LIBNSL */
+#undef HAVE_LIBNSL
 
 /* Define to 1 if you have the `pthread' library (-lpthread). */
-#define HAVE_LIBPTHREAD 1
+#undef HAVE_LIBPTHREAD
 
 /* Define to 1 if you have the `readline' library (-lreadline). */
-#define HAVE_LIBREADLINE 1
+#undef HAVE_LIBREADLINE
 
 /* Define to 1 if you have the `socket' library (-lsocket). */
-/* #undef HAVE_LIBSOCKET */
+#undef HAVE_LIBSOCKET
 
 /* Define to 1 if you have the `ssl' library (-lssl). */
-#define HAVE_LIBSSL 1
+#undef HAVE_LIBSSL
 
 /* Define to 1 if you have the `usb-1.0' library (-lusb-1.0). */
-#define HAVE_LIBUSB_1_0 1
+#undef HAVE_LIBUSB_1_0
 
 /* Define to 1 if you have the `z' library (-lz). */
-#define HAVE_LIBZ 1
+#undef HAVE_LIBZ
 
 /* Define to 1 if you have the <link.h> header file. */
-/* #undef HAVE_LINK_H */
+#undef HAVE_LINK_H
 
 /* Define to 1 if you have the <memory.h> header file. */
-#define HAVE_MEMORY_H 1
+#undef HAVE_MEMORY_H
 
 /* Define to 1 if you have the `mmap' function. */
-#define HAVE_MMAP 1
+#undef HAVE_MMAP
 
 /* Define to 1 if stdbool.h conforms to C99. */
-#define HAVE_STDBOOL_H 1
+#undef HAVE_STDBOOL_H
 
 /* Define to 1 if you have the <stdint.h> header file. */
-#define HAVE_STDINT_H 1
+#undef HAVE_STDINT_H
 
 /* Define to 1 if you have the <stdlib.h> header file. */
-#define HAVE_STDLIB_H 1
+#undef HAVE_STDLIB_H
 
 /* Define to 1 if you have the `strdup' function. */
-#define HAVE_STRDUP 1
+#undef HAVE_STRDUP
 
 /* Define to 1 if you have the `strftime' function. */
-#define HAVE_STRFTIME 1
+#undef HAVE_STRFTIME
 
 /* Define to 1 if you have the <strings.h> header file. */
-#define HAVE_STRINGS_H 1
+#undef HAVE_STRINGS_H
 
 /* Define to 1 if you have the <string.h> header file. */
-#define HAVE_STRING_H 1
+#undef HAVE_STRING_H
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
-#define HAVE_SYS_STAT_H 1
+#undef HAVE_SYS_STAT_H
 
 /* Define to 1 if you have the <sys/types.h> header file. */
-#define HAVE_SYS_TYPES_H 1
+#undef HAVE_SYS_TYPES_H
 
 /* Define to 1 if you have the `umask' function. */
-#define HAVE_UMASK 1
+#undef HAVE_UMASK
 
 /* Define to 1 if you have the <unistd.h> header file. */
-#define HAVE_UNISTD_H 1
+#undef HAVE_UNISTD_H
 
 /* Define to 1 if the system has the type `_Bool'. */
-#define HAVE__BOOL 1
+#undef HAVE__BOOL
 
 /* This is a Linux system */
-/* #undef LINUX */
+#undef LINUX
 
 /* This is a MinGW system */
-/* #undef MINGW */
+#undef MINGW
 
 /* Name of package */
-#define PACKAGE "opensn0w"
+#undef PACKAGE
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "support@beige-box.com"
+#undef PACKAGE_BUGREPORT
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "opensn0w"
+#undef PACKAGE_NAME
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "opensn0w 2.0.0"
+#undef PACKAGE_STRING
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "opensn0w"
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "2.0.0"
+#undef PACKAGE_VERSION
 
 /* Define to 1 if you have the ANSI C header files. */
-#define STDC_HEADERS 1
+#undef STDC_HEADERS
 
 /* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
-#define TIME_WITH_SYS_TIME 1
+#undef TIME_WITH_SYS_TIME
 
 /* Enable extensions on AIX 3, Interix.  */
 #ifndef _ALL_SOURCE
-# define _ALL_SOURCE 1
+# undef _ALL_SOURCE
 #endif
 /* Enable GNU extensions on systems that have them.  */
 #ifndef _GNU_SOURCE
-# define _GNU_SOURCE 1
+# undef _GNU_SOURCE
 #endif
 /* Enable threading extensions on Solaris.  */
 #ifndef _POSIX_PTHREAD_SEMANTICS
-# define _POSIX_PTHREAD_SEMANTICS 1
+# undef _POSIX_PTHREAD_SEMANTICS
 #endif
 /* Enable extensions on HP NonStop.  */
 #ifndef _TANDEM_SOURCE
-# define _TANDEM_SOURCE 1
+# undef _TANDEM_SOURCE
 #endif
 /* Enable general extensions on Solaris.  */
 #ifndef __EXTENSIONS__
-# define __EXTENSIONS__ 1
+# undef __EXTENSIONS__
 #endif
 
 
 /* Version number of package */
-#define VERSION "2.0.0"
+#undef VERSION
 
 /* This is a Windows system */
-/* #undef WINDOWS */
+#undef WINDOWS
 
 /* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
    significant byte first (like Motorola and SPARC, unlike Intel). */
@@ -187,99 +180,104 @@
 # endif
 #else
 # ifndef WORDS_BIGENDIAN
-/* #  undef WORDS_BIGENDIAN */
+#  undef WORDS_BIGENDIAN
 # endif
 #endif
 
+/* Enable large inode numbers on Mac OS X 10.5.  */
+#ifndef _DARWIN_USE_64_BIT_INODE
+# define _DARWIN_USE_64_BIT_INODE 1
+#endif
+
 /* Number of bits in a file offset, on hosts where this is settable. */
-/* #undef _FILE_OFFSET_BITS */
+#undef _FILE_OFFSET_BITS
 
 /* Define for large files, on AIX-style hosts. */
-/* #undef _LARGE_FILES */
+#undef _LARGE_FILES
 
 /* Define to 1 if on MINIX. */
-/* #undef _MINIX */
+#undef _MINIX
 
 /* Define to 2 if the system does not provide POSIX.1 features except with
    this defined. */
-/* #undef _POSIX_1_SOURCE */
+#undef _POSIX_1_SOURCE
 
 /* Define to 1 if you need to in order for `stat' and other things to work. */
-/* #undef _POSIX_SOURCE */
+#undef _POSIX_SOURCE
 
 /* Define for Solaris 2.5.1 so the uint32_t typedef from <sys/synch.h>,
    <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
    #define below would cause a syntax error. */
-/* #undef _UINT32_T */
+#undef _UINT32_T
 
 /* Define for Solaris 2.5.1 so the uint64_t typedef from <sys/synch.h>,
    <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
    #define below would cause a syntax error. */
-/* #undef _UINT64_T */
+#undef _UINT64_T
 
 /* Define for Solaris 2.5.1 so the uint8_t typedef from <sys/synch.h>,
    <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
    #define below would cause a syntax error. */
-/* #undef _UINT8_T */
+#undef _UINT8_T
 
 /* Define to empty if `const' does not conform to ANSI C. */
-/* #undef const */
+#undef const
 
 /* Define to `int' if <sys/types.h> doesn't define. */
-/* #undef gid_t */
+#undef gid_t
 
 /* Define to `__inline__' or `__inline' if that's what the C compiler
    calls it, or to nothing if 'inline' is not supported under any name.  */
 #ifndef __cplusplus
-/* #undef inline */
+#undef inline
 #endif
 
 /* Define to the type of a signed integer type of width exactly 16 bits if
    such a type exists and the standard includes do not define it. */
-/* #undef int16_t */
+#undef int16_t
 
 /* Define to the type of a signed integer type of width exactly 32 bits if
    such a type exists and the standard includes do not define it. */
-/* #undef int32_t */
+#undef int32_t
 
 /* Define to the type of a signed integer type of width exactly 8 bits if such
    a type exists and the standard includes do not define it. */
-/* #undef int8_t */
+#undef int8_t
 
 /* Define to `int' if <sys/types.h> does not define. */
-/* #undef mode_t */
+#undef mode_t
 
 /* Define to `long int' if <sys/types.h> does not define. */
-/* #undef off_t */
+#undef off_t
 
 /* Define to `int' if <sys/types.h> does not define. */
-/* #undef pid_t */
+#undef pid_t
 
 /* Define to `unsigned int' if <sys/types.h> does not define. */
-/* #undef size_t */
+#undef size_t
 
 /* Define to `int' if <sys/types.h> does not define. */
-/* #undef ssize_t */
+#undef ssize_t
 
 /* Define to `int' if <sys/types.h> doesn't define. */
-/* #undef uid_t */
+#undef uid_t
 
 /* Define to the type of an unsigned integer type of width exactly 16 bits if
    such a type exists and the standard includes do not define it. */
-/* #undef uint16_t */
+#undef uint16_t
 
 /* Define to the type of an unsigned integer type of width exactly 32 bits if
    such a type exists and the standard includes do not define it. */
-/* #undef uint32_t */
+#undef uint32_t
 
 /* Define to the type of an unsigned integer type of width exactly 64 bits if
    such a type exists and the standard includes do not define it. */
-/* #undef uint64_t */
+#undef uint64_t
 
 /* Define to the type of an unsigned integer type of width exactly 8 bits if
    such a type exists and the standard includes do not define it. */
-/* #undef uint8_t */
+#undef uint8_t
 
 /* Define to empty if the keyword `volatile' does not work. Warning: valid
    code using `volatile' can become incorrect without. Disable with care. */
-/* #undef volatile */
+#undef volatile
