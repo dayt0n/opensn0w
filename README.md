@@ -42,7 +42,7 @@ concepts, code, and/or inspiration.
 
 ## 4. CONTACT US!
 
-For assistance with opensn0w, please visit #opensn0w on irc.freenode.net. [&#91;Webchat&#93;](http://webchat.freenode.net/?channels=opensn0w) Or, contact me at daytonhasty@gmail.com
+For assistance with opensn0w, please visit #opensn0w on irc.freenode.net. [&#91;Webchat&#93;](http://webchat.freenode.net/?channels=opensn0w)
 
 ## 5. GENERAL NOTES
 
